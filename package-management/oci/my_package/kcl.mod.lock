@@ -1,0 +1,8 @@
+[dependencies]
+  [dependencies.k8s]
+    name = "k8s"
+    full_name = "k8s_"
+    sum = "mgjXEtSgZYQwU1srKfa66CPSirgW6exRthY0jBJUzp0="
+    reg = "ghcr.io"
+    repo = "kusionstack/k8s"
+    oci_tag = "1.27.2"
