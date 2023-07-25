@@ -19,7 +19,7 @@ This repo contains a collection of KCL examples, the documents are at [here](htt
 | [Package Management](./package-management/)     | KCL package management examples, including how to use kpm to manage your KCL project, e.g., add dependencies, publish packages, and more. |
 | [Kubernetes](./kubernetes/)                     | KCL Kubernetes examples, including how to use KCL to generate, validate and mutate Kubernetes resources.                                  |
 | [CI/CD Integrations](./ci-integration/)         | KCL CI/CD integration examples, including Github actions, Gitlab CI, etc.                                                                 |
-| [GitOps](./gitops/)                             | KCL GitOps examples.                                                                                                                      |
+| [GitOps](./gitops/)                             | KCL GitOps examples, including the end-to-end app and infra developing and development automaticly with KCL                               |
 | [Konfig](https://github.com/KusionStack/konfig) | KCL Konfig examples, including a mono repository of the infra and app configuration with KCL                                              |
 
 ## Testing
