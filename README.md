@@ -4,7 +4,7 @@ This repo contains a collection of KCL examples, the documents are at [here](htt
 
 ## Prerequisite
 
-+ Firstly, download and install [KCL](https://kcl-lang.io/docs/user_docs/getting-started/install) and [kpm](https://kcl-lang.io/docs/user_docs/guides/package-management/installation) according to the instructions, and then prepare a Kubernetes environment.
++ Firstly, download and install [KCL](https://kcl-lang.io/docs/user_docs/getting-started/install), [kpm](https://kcl-lang.io/docs/user_docs/guides/package-management/installation) and [kcl-openapi](https://kcl-lang.io/docs/tools/cli/openapi/quick-start) according to the instructions, and then prepare a Kubernetes environment.
 + Secondly, learn KCL [user guide](https://kcl-lang.io/docs/user_docs/guides/) and [tour](https://kcl-lang.io/docs/reference/lang/tour) documents.
 
 ## Samples
