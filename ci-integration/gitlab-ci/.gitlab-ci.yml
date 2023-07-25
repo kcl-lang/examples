@@ -1,0 +1,33 @@
+stages:
+- publish
+- deploy
+
+publish:
+  stage: publish
+  image:
+    name: cnych/kaniko-executor:v0.22.0
+    entrypoint: [""]
+  script:
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile ./Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  image: cnych/kustomize:v1.0
+  before_script:
+    - git remote set-url origin https://gitlab.com/kcl-lang/flask-demo
+    - git config --global user.email "gitlab@git.local"
+    - git config --global user.name "GitLab CI/CD"
+    # Install KCL
+    - wget -q https://kcl-lang.io/script/install.sh -O - | /bin/bash
+  script:
+    - git checkout -B main
+    - cd deployment
+    # Image auto update
+    - /usr/local/kclvm/bin/kcl -d -O config.containers.flask_demo.image="$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
+    - git commit -am '[skip ci] image update to $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA'
+    - git push origin main
+  only:
+    - main
