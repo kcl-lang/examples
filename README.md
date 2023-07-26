@@ -1,3 +1,10 @@
+<div align="center">
+<p></p><p></p>
+<p>
+    <img  src="images/kcl-logo.png">
+</p>
+</div>
+
 # Examples
 
 This repo contains a collection of KCL examples, the documents are at [here](https://kcl-lang.io/docs/user_docs/guides/).
@@ -7,9 +14,9 @@ This repo contains a collection of KCL examples, the documents are at [here](htt
 + Firstly, download and install [KCL](https://kcl-lang.io/docs/user_docs/getting-started/install), [kpm](https://kcl-lang.io/docs/user_docs/guides/package-management/installation) and [kcl-openapi](https://kcl-lang.io/docs/tools/cli/openapi/quick-start) according to the instructions, and then prepare a Kubernetes environment.
 + Secondly, learn KCL [user guide](https://kcl-lang.io/docs/user_docs/guides/) and [tour](https://kcl-lang.io/docs/reference/lang/tour) documents.
 
-## Samples
+## Example List
 
-| Sample                                          | Description                                                                                                                               |
+| Example                                         | Description                                                                                                                               |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | [Confuguration](./configuration/)               | KCL configuration examples, including simple key value pairs and dynamic parameters.                                                      |
 | [Mutation](./mutation/)                         | KCL data mutation examples, including writing KCL code to mutate the replicas field in the KRM                                            |
