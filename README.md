@@ -29,8 +29,8 @@ This repo contains a collection of KCL examples, the documents are at [here](htt
 | [CI/CD Integrations](./ci-integration/)                       | KCL CI/CD integration examples, including Github actions, Gitlab CI, etc.                                                                 |
 | [GitOps](./gitops/)                                           | KCL GitOps examples, including the end-to-end app and infra developing and development automaticly with KCL                               |
 | [Konfig](https://github.com/KusionStack/konfig)               | KCL Konfig examples, including a mono repository of the infra and app configuration with KCL                                              |
-| [KRM KCL](https://github.com/kcl-lang/krm-kcl)                | KCL KRM KCL examples, including examples on the KCL package registry including abstraction, mutation and validation                       |
-| [Package Registry](https://github.com/orgs/kcl-lang/packages) | KCL KRM KCL examples, including examples on the KCL package registry including abstraction, mutation and validation                       |
+| [KRM KCL](https://github.com/kcl-lang/krm-kcl)                | KRM KCL examples, including examples on the KCL package registry including abstraction, mutation and validation                           |
+| [Package Registry](https://github.com/orgs/kcl-lang/packages) | KCL Package Registry                                                                                                                      |
 
 ## Testing
 
