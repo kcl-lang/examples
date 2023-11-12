@@ -21,15 +21,15 @@ import .app
 
 app.App {
     name = "app"
-    containers.ngnix = {
-        image = "ngnix"
+    containers.nginx = {
+        image = "nginx"
         ports = [{containerPort = 80}]
     }
     service.ports = [{ port = 80 }]
 }
 ```
 
-In the above code, we defined a configuration using the `App` schema, where we configured an `ngnix` container and configured it with an `80` service port.
+In the above code, we defined a configuration using the `App` schema, where we configured an `nginx` container and configured it with an `80` service port.
 
 Besides, KCL allows developers to define the resources required for their applications in a declarative manner and is tied to a platform such as Docker Compose or Kubernetes manifests and allows to generate a platform-specific configuration file such as `docker-compose.yaml` or a Kubernetes `manifests.yaml` file. Next, let's generate the corresponding configuration.
 
@@ -46,7 +46,7 @@ The output is
 ```yaml
 services:
   app:
-    image: ngnix
+    image: nginx
     ports:
       - published: 80
         target: 80
@@ -81,8 +81,8 @@ spec:
         app: app
     spec:
       containers:
-        - name: ngnix
-          image: ngnix
+        - name: nginx
+          image: nginx
           ports:
             - protocol: TCP
               containerPort: 80
