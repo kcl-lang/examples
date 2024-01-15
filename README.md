@@ -24,7 +24,7 @@ This repo contains a collection of KCL examples, the documents are at [here](htt
 | [Abstraction](./abstraction/)                                 | KCL abstract examples, including using application models to abstract Docker Compose and Kubernetes resources.                            |
 | [Data Integration](./data-integration/)                       | KCL data integration examples, including integrating JSON and YAML data.                                                                  |
 | [Automation](./automation/)                                   | KCL automation examples, including how to use the KCL API to automatically modify and delete configurations.                              |
-| [Package Management](./package-management/)                   | KCL package management examples, including how to use kpm to manage your KCL project, e.g., add dependencies, publish packages, and more. |
+| [Package Management](./package-management/)                   | KCL package management examples, including how to use kcl package manage tool to manage your KCL project, e.g., add dependencies, publish packages, and more. |
 | [Kubernetes](./kubernetes/)                                   | KCL Kubernetes examples, including how to use KCL to generate, validate and mutate Kubernetes resources.                                  |
 | [CI/CD Integrations](./ci-integration/)                       | KCL CI/CD integration examples, including Github actions, Gitlab CI, etc.                                                                 |
 | [GitOps](./gitops/)                                           | KCL GitOps examples, including the end-to-end app and infra developing and development automaticly with KCL                               |

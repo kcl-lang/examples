@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-+ Firstly, download and install [KCL](https://kcl-lang.io/docs/user_docs/getting-started/install), [kpm](https://kcl-lang.io/docs/user_docs/guides/package-management/installation) and [kcl-openapi](https://kcl-lang.io/docs/tools/cli/openapi/quick-start) according to the instructions, and then prepare a Kubernetes environment.
++ Firstly, download and install [KCL](https://kcl-lang.io/docs/user_docs/getting-started/install) according to the instructions, and then prepare a Kubernetes environment.
 
 ## Quick Start
 
@@ -67,5 +67,5 @@ There is a JSON format file `data.json`:
 Execute the following command:
 
 ```bash
-kcl-vet data.json schema.k
+kcl vet data.json schema.k
 ```
