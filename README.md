@@ -18,7 +18,7 @@ This repo contains a collection of KCL examples, the documents are at [here](htt
 
 | Example                                                       | Description                                                                                                                               |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [Confuguration](./configuration/)                             | KCL configuration examples, including simple key value pairs and dynamic parameters.                                                      |
+| [Configuration](./configuration/)                             | KCL configuration examples, including simple key value pairs and dynamic parameters.                                                      |
 | [Mutation](./mutation/)                                       | KCL data mutation examples, including writing KCL code to mutate the replicas field in the KRM                                            |
 | [Validation](./validation/)                                   | KCL data validation examples, including writing KCL files to validate JSON, YAML, and other data.                                         |
 | [Abstraction](./abstraction/)                                 | KCL abstract examples, including using application models to abstract Docker Compose and Kubernetes resources.                            |
