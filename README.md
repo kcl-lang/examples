@@ -6,6 +6,8 @@
 </div>
 
 # Examples
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcl-lang%2Fexamples.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcl-lang%2Fexamples?ref=badge_shield)
+
 
 This repo contains a collection of KCL examples, the documents are at [here](https://kcl-lang.io/docs/user_docs/guides/).
 
@@ -40,3 +42,7 @@ Run all examples
 ```bash
 ./test.sh
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcl-lang%2Fexamples.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcl-lang%2Fexamples?ref=badge_large)
